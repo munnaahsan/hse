@@ -41,7 +41,13 @@
                     <div class="col-lg-6 d-flex justify-content-center align-items-center border-0 rounded-lg auth-h100">
                         <div class="w-100 p-3 p-md-5 card border-0 shadow-sm" style="max-width: 32rem;">
                             <!-- Form -->
-                            <form class="row g-1 p-3 p-md-4">
+                            {{-- <form class="row g-1 p-3 p-md-4"> --}}
+                                <form 
+                                    method="POST" 
+                                    class="row g-1 p-3 p-md-4"
+                                    action="{{ route('password.email') }}">
+                                    @csrf
+                                    
                                 <div class="col-12 text-center mb-5">
                                     <img src="{{ asset('/customAuth/images/forgot-password.svg') }}" class="w240 mb-4" alt="" />
                                     <h1>Forgot password?</h1>

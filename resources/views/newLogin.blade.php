@@ -59,7 +59,7 @@
 {{--                                </div>--}}
                                 <div class="col-12">
                                     <div class="mb-2">
-                                        <label class="form-label">Email adxddddddddddess</label>
+                                        <label class="form-label">Email</label>
                                         {{-- <input type="email" class="form-control form-control-lg" placeholder="name@example.com"> --}}
 
                                         <input 
@@ -124,9 +124,6 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
-                                </div>
-                                <div class="col-12 text-center mt-4">
-                                    <span>Don't have an account yet? <a href="auth-signup.html" class="text-secondary">Sign up here</a></span>
                                 </div>
                             </form>
                             <!-- End Form -->
